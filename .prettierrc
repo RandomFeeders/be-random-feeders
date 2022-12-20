@@ -1,0 +1,30 @@
+{
+  "singleQuote": true,
+  "trailingComma": "none",
+  "endOfLine": "crlf",
+  "tabWidth": 4,
+  "bracketSpacing": true,
+  "useTabs": true,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "parser": "yaml",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
